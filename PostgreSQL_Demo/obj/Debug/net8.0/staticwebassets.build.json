@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dePU2PRwMVH1sxM02YgeKd+owiTHgleu90Y8dNtpbM0=",
+  "Source": "PostgreSQL_Demo",
+  "BasePath": "_content/PostgreSQL_Demo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

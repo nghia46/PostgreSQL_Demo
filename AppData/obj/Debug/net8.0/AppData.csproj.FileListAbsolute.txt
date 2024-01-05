@@ -1,0 +1,14 @@
+D:\Repos\PostgreSQL_Demo\AppData\bin\Debug\net8.0\AppData.deps.json
+D:\Repos\PostgreSQL_Demo\AppData\bin\Debug\net8.0\AppData.runtimeconfig.json
+D:\Repos\PostgreSQL_Demo\AppData\bin\Debug\net8.0\AppData.dll
+D:\Repos\PostgreSQL_Demo\AppData\bin\Debug\net8.0\AppData.pdb
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.csproj.AssemblyReference.cache
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.AssemblyInfoInputs.cache
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.AssemblyInfo.cs
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.csproj.CoreCompileInputs.cache
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.dll
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\refint\AppData.dll
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.pdb
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\AppData.genruntimeconfig.cache
+D:\Repos\PostgreSQL_Demo\AppData\obj\Debug\net8.0\ref\AppData.dll
