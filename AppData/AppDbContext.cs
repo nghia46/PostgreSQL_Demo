@@ -1,24 +1,23 @@
 ﻿using AppData.Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppData
 {
     public class AppDbContext : DbContext
     {
-        protected readonly IConfiguration _configiguration;
-        public AppDbContext(IConfiguration configuration) {
-            _configiguration = configuration;
+        private readonly IConfiguration _configuration;
+
+        public AppDbContext(IConfiguration configuration)
+        {
+            _configuration = configuration;
         }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(_configiguration.GetConnectionString("DemoDb"));
+            optionsBuilder.UseNpgsql(_configuration.GetConnectionString("StudentDb"));
         }
-        public DbSet<Person> Persons { get; set; }
+//Table
+        public required DbSet<Student> Students { get; set; }
     }
 }

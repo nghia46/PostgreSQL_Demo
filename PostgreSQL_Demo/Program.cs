@@ -1,8 +1,5 @@
 using AppData;
 using AppData.Service;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Repository.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //
 builder.Services.AddScoped<AppDbContext>();
-builder.Services.AddScoped<ServiceBase<Person>, PersonService>();
+builder.Services.AddScoped<ServiceBase<Student>, StudentService>();
 //
 
 var app = builder.Build();

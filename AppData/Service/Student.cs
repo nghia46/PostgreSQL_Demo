@@ -1,10 +1,10 @@
 ﻿namespace AppData.Service
 {
-    public class Person
+    public class Student
     {
         public required string Id { get; set; }
         public required string Name { get; set; }
         public int Age { get; set; }
-        public int FamlilyNumber { get; set; }
+        public float Gpa { get; set; }
     }
 }

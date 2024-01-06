@@ -1,14 +1,13 @@
-﻿using AppData;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace Repository.Service
+namespace AppData.Service
 {
     public class ServiceBase<T> where T : class
     {
         private readonly AppDbContext _context;
         private readonly DbSet<T> _dbSet;
 
-        public ServiceBase(AppDbContext context)
+        protected ServiceBase(AppDbContext context)
         {
             _context = context;
             _dbSet = _context.Set<T>();
