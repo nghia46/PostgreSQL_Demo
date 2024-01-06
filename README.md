@@ -1,1 +1,2 @@
-A simple demo of using PostgreSQL using old 3 layer architecture 
+## A simple demo PostgreSQL 
+## using old 3 layer architecture 
