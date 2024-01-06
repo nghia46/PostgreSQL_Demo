@@ -8,7 +8,8 @@ namespace AppData.Service
 {
     public class PersonView
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public required string Name { get; set; }
+        public required int Age { get; set; }
+        public int FamilyNumber { get; set; }
     }
 }

@@ -29,13 +29,16 @@ namespace AppData.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("integer");
 
+                    b.Property<int>("FamlilyNumber")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("people");
+                    b.ToTable("Persons");
                 });
 #pragma warning restore 612, 618
         }

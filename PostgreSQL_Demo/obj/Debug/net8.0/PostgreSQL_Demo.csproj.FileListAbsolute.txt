@@ -104,3 +104,4 @@ D:\Repos\PostgreSQL_Demo\PostgreSQL_Demo\obj\Debug\net8.0\refint\PostgreSQL_Demo
 D:\Repos\PostgreSQL_Demo\PostgreSQL_Demo\obj\Debug\net8.0\PostgreSQL_Demo.pdb
 D:\Repos\PostgreSQL_Demo\PostgreSQL_Demo\obj\Debug\net8.0\PostgreSQL_Demo.genruntimeconfig.cache
 D:\Repos\PostgreSQL_Demo\PostgreSQL_Demo\obj\Debug\net8.0\ref\PostgreSQL_Demo.dll
+D:\Repos\PostgreSQL_Demo\PostgreSQL_Demo\obj\Debug\net8.0\PostgreSQL_Demo.sourcelink.json

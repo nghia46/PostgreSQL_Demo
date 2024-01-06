@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AppData.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240105095801_init")]
+    [Migration("20240106074646_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -32,13 +32,16 @@ namespace AppData.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("integer");
 
+                    b.Property<int>("FamlilyNumber")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("people");
+                    b.ToTable("Persons");
                 });
 #pragma warning restore 612, 618
         }

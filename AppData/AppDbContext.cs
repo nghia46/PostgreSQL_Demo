@@ -19,6 +19,6 @@ namespace AppData
         {
             optionsBuilder.UseNpgsql(_configiguration.GetConnectionString("DemoDb"));
         }
-        public DbSet<Person> people { get; set; }
+        public DbSet<Person> Persons { get; set; }
     }
 }
